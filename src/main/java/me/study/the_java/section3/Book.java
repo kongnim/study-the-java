@@ -1,5 +1,8 @@
 package me.study.the_java.section3;
 
+@MyAnnotation
+@MyAnnotation2(nickname = "mjmj")
+@MyAnnotation3
 public class Book {
     private String a = "a";
     private static String b = "BOOK";
